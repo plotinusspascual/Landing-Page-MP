@@ -1,0 +1,45 @@
+.header{
+    padding: 20px;
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-image{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/welcome.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    padding: 20px;
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.content{
+    background-color: darkcyan;
+}
+
+#contact-info{
+    background-color: lightgreen;
+}
