@@ -17,22 +17,29 @@
         </header>
         <figure class="welcome-image"></figure>
         <main class="content">
-            <section>
+            
+            <section id="hello">
                 <h1>Hello</h1>
-                <p>
+                    <p>
                     Welcome to our landing page
-                </p>
+                    </p>
             </section>
             
             <section id="contact-info">
                 <h2>
                     Contact Info
                 </h2>
-                <ul>
-                    <li>Name: Jose Pascual</li>
-                    <li>Email: <a href="mailto:plotinusspascual@gmail.com">plotinusspascual@gmail.com</a></li>
-                    <li>Phone Number: 510-867-5309</li>
-                </ul>
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
             </section>
         </main>
 
